@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url(./storage/font/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url(./storage/font/RobotoCondensed-Bold.ttf);
+}
+
