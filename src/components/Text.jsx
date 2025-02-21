@@ -8,7 +8,7 @@ function Text (){
     return(
             <div className="flex flex-col gap-20">
                 <div className="flex justify-center items-center gap-5">
-                    <div className="flex flex-col gap-10">
+                    <div id="apoyanos" className="flex flex-col gap-10">
                         <h1 className="font-[RobotoCondensed-Bold] text-4xl">Apóyanos</h1>
                         <div className='flex flex-col text-[20px]'>
                             <p>Por favor, si quieres ayudarnos económicamente, no <br /> dudes en donar en Kickstarter.</p>
@@ -17,14 +17,14 @@ function Text (){
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
                         <img src={pc} alt="pc" className='' />
-                        <div className='bg-black text-white rounded-lg px-3 py-1'>
+                        <a href="#aporte" className='bg-black text-white rounded-lg px-3 py-1'>
                             <h1>Haz tu aporte</h1>
-                        </div>
+                        </a>
                     </div>
 
                 </div>
                 <div className="flex justify-center items-center gap-5">
-                    <div className="flex flex-col gap-10">
+                    <div id="sobre" className="flex flex-col gap-10">
                         <h1 className="font-[RobotoCondensed-Bold] text-4xl">Sobre nosotros</h1>
                         <div className='flex flex-col gap-3 text-[20px]'>
                             <p>Somos Aqua, un equipo que apuesta por la <br /> inclusión, principalmente por las personas no <br /> videntes o de visibilidad reducida. <br />

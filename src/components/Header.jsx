@@ -10,9 +10,10 @@ function Header() {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const offset =200;
-      const scrolled = (scrollTop / docHeight) * 100;
-      setScrollWidth(scrolled);
+    
+      const scrolled = (scrollTop / docHeight) * 80 + 20;
+    
+      setScrollWidth(scrolled>100?100:scrolled);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -22,7 +23,7 @@ function Header() {
   return (
     <>
         <div className="flex justify-between">
-          <div className="bg-black flex items-center p-2 rounded-r-full gap-1 xl:pr-3 sm:pr-7">
+          <div className="bg-black flex items-center p-2 rounded-r-full gap-1 xl:pr-4 pr-5 sm:pr-7">
             <h1 className="text-white font-[RobotoCondensed-Regular] md:text-auto xl:text-3xl sm:text-1xl">AQUA</h1>
             <GiWaterDrop className="text-cyan-400 h-auto w-auto" />
           </div>
@@ -32,7 +33,7 @@ function Header() {
               <a href="#inicio" className="shadow-md p-1 rounded-lg px-3">INICIO</a>
               <a href="#jugar" className="shadow-md p-1 rounded-lg px-2">COMO JUGAR</a>
               <a href="#apoyanos" className="shadow-md p-1 rounded-lg px-3">APÓYANOS</a>
-              <a href="#sobre-nosotros" className="shadow-md p-1 rounded-lg px-2">SOBRE NOSOTROS</a>
+              <a href="#sobre" className="shadow-md p-1 rounded-lg px-2">SOBRE NOSOTROS</a>
             </div>
 
             <div className="h-1 bg-gray-300">

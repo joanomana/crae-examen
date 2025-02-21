@@ -14,13 +14,13 @@ import Card4 from '../storage/img/crae-6.svg'
 
 function Section () {
 return (
-    <div className="flex flex-col gap-30 mt-5 w-full">
+    <div id="jugar" className="flex flex-col gap-30 mt-5 w-full">
         <div className="flex flex-col gap-4 text-center">
             <h1 className="font-[RobotoCondensed-Bold] text-6xl">¿Cómo jugar?</h1>
             <p className="font-[RobotoCondensed-Regular] text-4xl">Crae posee una modalidad de juego definidas <br /> pero siempre apoyamos la creatividad y que <br /> crees tus propias reglas y modalidades.</p>
         </div>
-        <div className="flex flex-col gap-5 justify-center items-center">
-            <div className="flex items-center text-start gap-5">
+        <div className="flex flex-col gap-15 justify-center items-center">
+            <div className="flex items-center just text-start gap-5">
                 <TbCircleNumber1Filled className="text-8xl" />
                 <p className="font-[RobotoCondensed-Regular] text-2xl">Uno de los jugadores hace de “creativo” en cada uno de los turnos. <br /> Observa sus 6 cartas de la mano y, de una de ellas, debe construir <br /> una frase, palabra o sonido y decirla en voz alta (sin mostrar la <br /> carta a los otros jugadores). La frase puede ser inventada o puede <br /> estar inspirada en la poesía, literatura, cine, etc. 
                 </p>
@@ -32,7 +32,7 @@ return (
                 </p>
                 <img src={Card1} alt="1" />
             </div>
-            <div className="flex items-center text-start gap-5">
+            <div className="flex items-center just text-start gap-5">
                 <TbCircleNumber3Filled className="text-8xl" />
                 <p className="font-[RobotoCondensed-Regular] text-2xl">El objetivo de los jugadores es adivinar cuál de las cartas es la que <br /> el creativo usó para construir su frase. Cada jugador vota de forma <br /> secreta la carta que cree que pertenece al creativo. Para ello,<br /> coloca boca abajo frente a él un objeto que hayas escogido <br /> previamente. 
                 </p>
