@@ -15,7 +15,7 @@ function Post (){
                     <img src={Text} alt="text" className='w-auto h-auto' />
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-[RobotoCondensed-Regular] text-4xl'>Somos creatividad, somos Crae</h1>
-                        <p className='text-start'>Crae es un juego de cartas inclusivo donde personas videntes, no <br /> videntes y con discapacidad visual pueden participar y disfrutar en <br /> conjunto.</p>
+                        <p className='text-start text-[16px]'>Crae es un juego de cartas inclusivo donde personas videntes, no <br /> videntes y con discapacidad visual pueden participar y disfrutar en <br /> conjunto.</p>
                     </div>
                 </div>
                 <div className='flex'>
