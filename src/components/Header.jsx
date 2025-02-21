@@ -21,18 +21,18 @@ function Header() {
 
   return (
     <>
-        <div className="flex justify-between items-center">
-          <div className="bg-black flex p-2 rounded-r-full gap-1 pr-7">
-            <h1 className="text-white font-[RobotoCondensed-Regular]">AQUA</h1>
-            <GiWaterDrop className="text-cyan-400 text-[22px]" />
+        <div className="flex justify-between">
+          <div className="bg-black flex items-center p-2 rounded-r-full gap-1 xl:pr-3 sm:pr-7">
+            <h1 className="text-white font-[RobotoCondensed-Regular] md:text-auto xl:text-3xl sm:text-1xl">AQUA</h1>
+            <GiWaterDrop className="text-cyan-400 h-auto w-auto" />
           </div>
 
-          <div className="flex flex-col gap-1 font-[RobotoCondensed-Bold] w-1/2">
-            <div className="flex justify-around">
-              <a href="#inicio" className="shadow-md p-1 rounded-lg">INICIO</a>
-              <a href="#jugar" className="shadow-md p-1 rounded-lg">COMO JUGAR</a>
-              <a href="#apoyanos" className="shadow-md p-1 rounded-lg">APÓYANOS</a>
-              <a href="#sobre-nosotros" className="shadow-md p-1 rounded-lg">SOBRE NOSOTROS</a>
+          <div className="flex flex-col gap-1 font-[RobotoCondensed-Bold]  ">
+            <div className="flex justify-center gap-7">
+              <a href="#inicio" className="shadow-md p-1 rounded-lg px-3">INICIO</a>
+              <a href="#jugar" className="shadow-md p-1 rounded-lg px-2">COMO JUGAR</a>
+              <a href="#apoyanos" className="shadow-md p-1 rounded-lg px-3">APÓYANOS</a>
+              <a href="#sobre-nosotros" className="shadow-md p-1 rounded-lg px-2">SOBRE NOSOTROS</a>
             </div>
 
             <div className="h-1 bg-gray-300">
@@ -43,7 +43,7 @@ function Header() {
             </div>
           </div>
 
-          <div className="flex gap-3 mr-5">
+          <div className="mt-2 flex gap-3 text-2xl">
             <IoMoon className="text-gray-400 cursor-pointer" />
             <MdLightMode className="cursor-pointer" />
           </div>

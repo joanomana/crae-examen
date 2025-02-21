@@ -13,13 +13,13 @@ function App() {
 
   return (
     <>
-    <div className='mt-3 flex flex-col'>
-    <Header />
-    <div className='mx-3'>
-    <Post />
-    <Section />
-    <Footer/>
-    </div>
+    <div className='mt-3 xl:px-50 flex flex-col gap-10 w-full'>
+      <Header />
+      <div className='mx-3'>
+        <Post />
+        <Section />
+        <Footer/>
+      </div>
     </div>
     </>
   )
