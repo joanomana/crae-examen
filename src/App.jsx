@@ -13,12 +13,14 @@ function App() {
 
   return (
     <>
+    <div className='mt-3 flex flex-col'>
     <Header />
+    <div className='mx-3'>
     <Post />
     <Section />
     <Footer/>
-    
-      
+    </div>
+    </div>
     </>
   )
 }
